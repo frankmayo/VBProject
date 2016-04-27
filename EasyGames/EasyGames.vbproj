@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B90D8758-DF15-4382-AA3E-2AEBF884E589}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EasyGames.My.MyApplication</StartupObject>
+    <RootNamespace>EasyGames</RootNamespace>
+    <AssemblyName>EasyGames</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EasyGames.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EasyGames.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CoinForm.Designer.vb">
+      <DependentUpon>CoinForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CoinForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuessForm.Designer.vb">
+      <DependentUpon>GuessForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuessForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="CubileteForm.Designer.vb">
+      <DependentUpon>CubileteForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CubileteForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NameForm.Designer.vb">
+      <DependentUpon>NameForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NameForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RockPaperScissorsForm.Designer.vb">
+      <DependentUpon>RockPaperScissorsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RockPaperScissorsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CoinForm.resx">
+      <DependentUpon>CoinForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CubileteForm.resx">
+      <DependentUpon>CubileteForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuessForm.resx">
+      <DependentUpon>GuessForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameForm.resx">
+      <DependentUpon>NameForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RockPaperScissorsForm.resx">
+      <DependentUpon>RockPaperScissorsForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="763px-Cash_Flow_Token_Coin_%28One_Dollar_Each_Month%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="As.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qundango.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jeva.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gallego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="negrito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="blank.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="heads.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tails.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="heads_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tails_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="paper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scissors.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iStock_coin tosses.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GuessMyNumber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RockPaperScissors_3015010k.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cubilete-head-main.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

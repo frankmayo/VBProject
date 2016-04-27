@@ -1,0 +1,15 @@
+C:\Frank\VBFINAL\EasyGames\EasyGames\bin\Debug\EasyGames.exe.config
+C:\Frank\VBFINAL\EasyGames\EasyGames\bin\Debug\EasyGames.exe
+C:\Frank\VBFINAL\EasyGames\EasyGames\bin\Debug\EasyGames.pdb
+C:\Frank\VBFINAL\EasyGames\EasyGames\bin\Debug\EasyGames.xml
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.Resources.resources
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.vbproj.GenerateResource.Cache
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.exe
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.xml
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.pdb
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.MainForm.resources
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.CoinForm.resources
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.CubileteForm.resources
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.GuessForm.resources
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.NameForm.resources
+C:\Frank\VBFINAL\EasyGames\EasyGames\obj\Debug\EasyGames.RockPaperScissorsForm.resources
